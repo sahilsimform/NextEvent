@@ -22,7 +22,8 @@ function EventDetailPage() {
   }
 
   return (
-    <Fragment>
+    <>
+      bhjkbjbj,bj,
       <EventSummary title={event.title} />
       <EventLogistics
         date={event.date}
@@ -33,7 +34,7 @@ function EventDetailPage() {
       <EventContent>
         <p>{event.description}</p>
       </EventContent>
-    </Fragment>
+    </>
   );
 }
 
